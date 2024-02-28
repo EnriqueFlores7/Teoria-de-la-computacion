@@ -1,8 +1,8 @@
 import java.util.*;
 
-public class LenguajesRegulares {
+public class OperacionLenguajes {
     private String lenguaje1;
-    public LenguajesRegulares(String lenguaje1){
+    public OperacionLenguajes(String lenguaje1){
         this.lenguaje1 = lenguaje1;
     }
 
