@@ -23,8 +23,20 @@ public class OperacionLenguajes {
         }
         return "";
     }
-    public String GenerarSubcadenas(String lenguaje1){
-        return "";
+    public static void GenerarSubcadenas(String lenguaje1){
+        System.out.println("Subcadenas :");
+        Random random = new Random();
+        int longitud = lenguaje1.length();
+        
+        int numeroDesubcadenas = random.nextInt(10) + 1;
+        
+        for(int i = 0; i < numeroDesubcadenas; i++){
+            int start = random.nextInt(longitud);
+            int end = start + random.nextInt(longitud - start) + 1;
+
+            String subcadena = lenguaje1.substring(start, end);
+            System.out.println(subcadena);
+        }
     }
 
     public String GenerarSufijos(String lenguaje1){

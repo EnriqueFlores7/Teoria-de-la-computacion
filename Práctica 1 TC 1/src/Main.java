@@ -12,6 +12,7 @@ public class Main {
         OperacionLenguajes operacionLenguajes = new OperacionLenguajes(lenguaje1);
         operacionLenguajes.GenerarPrefijos(lenguaje1);
         operacionLenguajes.GenerarSufijos(lenguaje1);
+        OperacionLenguajes.GenerarSubcadenas(lenguaje1);
         OperacionLenguajes.unionDecadenas(cadena1, cadena2);
         OperacionLenguajes.interseccionDecadenas(cadena1, cadena2);
         OperacionLenguajes.GenerarConcatenacion(cadena1, cadena2);
