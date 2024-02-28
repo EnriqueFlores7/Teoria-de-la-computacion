@@ -2,7 +2,12 @@
 
 public class Main {
     public static void main(String[] args) {
-        // Llamamos a la clase
+        /*
+         * Enrique Flores Ortiz
+         * 2022670086
+         * 4CM2
+         * 28/02/24
+         */
 
         String lenguaje1 = "Computadora";
 
